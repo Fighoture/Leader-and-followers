@@ -30,6 +30,7 @@ Then navigate to `http://localhost` you should see a rectangular walled area wit
 
 ## Acknowledgments
 List sources of information or code used in this project, including libraries, frameworks, and tutorials.
+
 ENVIRO: The multi-agent, multi-user, multi-everything simulator
 -https://github.com/klavinslab/enviro
 

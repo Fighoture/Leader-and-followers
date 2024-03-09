@@ -25,6 +25,7 @@ esm start
 enviro
 ```
 Then navigate to `http://localhost` you should see a rectangular walled area with 1 leader, 5 followers, 2 fixed abstacles, several random obstacles. You can control the leader with WASD and observe how the followers follow their precedents.
+
 <img src='https://github.com/Fighoture/Leader-and-followers/blob/main/example.png' width=70%>
 
 ## Acknowledgments

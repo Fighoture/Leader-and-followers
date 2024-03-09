@@ -1,0 +1,36 @@
+{
+    "name": "Follower",
+    "type": "dynamic",
+    "description": "Follower Robot",
+    "shape": [
+        { "x": -6, "y": 6 },
+        { "x": 2, "y": 6 },
+        { "x": 12, "y": 0 },
+        { "x": 2, "y": -6 },
+        { "x": -6, "y": -6 }
+    ],
+    "friction": {
+      "collision": 0.5,
+      "linear": 10,
+      "rotational": 20
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 12, "y": 0 },
+        "direction": 0
+      },
+      { 
+        "type": "range",
+        "location": { "x": 7, "y": 3 },
+        "direction": 0.3
+      },
+      { 
+        "type": "range",
+        "location": { "x": 7, "y": -3 },
+        "direction": -0.3
+      }
+    ],
+    "mass": 0.25,    
+    "controller": "lib/follower.so"
+}

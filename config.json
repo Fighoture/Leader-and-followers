@@ -1,0 +1,121 @@
+{
+    "name": "Leader and Followers",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+    "agents": [
+        {
+            "definition": "defs/leader.json",
+            "style": { "fill": "orange", "stroke": "red" },
+            "position": {
+                "x": 100,
+                "y": 100,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 40,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "purple", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": -40,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -40,
+                "y": 40,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+                "x": -40,
+                "y": -40,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -100,
+                "y": 100,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 100,
+                "y": -100,
+                "theta": 0
+            }
+        }
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+    ]
+}
